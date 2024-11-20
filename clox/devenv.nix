@@ -5,7 +5,7 @@
   env.GREET = "clox";
 
   # https://devenv.sh/packages/
-  packages = [ pkgs.git ];
+  packages = [ pkgs.cmakeMinimal pkgs.git pkgs.multimarkdown ];
 
   # https://devenv.sh/languages/
   languages.c.enable = true;
