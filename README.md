@@ -1,18 +1,20 @@
 # Crafting Interpreters exercises
 
+This repository contains my exercises for Robert Nystrom's book [Crafting
+Interpreters](https://craftinginterpreters.com/).
 
+This project contains two different interpreters for the book's invented **Lox**
+language:
+- A Java-based interpreter, found in the `jlox` directory.
+- A C-based interpreter, found in the `clox` directory.
 
-## Installation
-
-TODO
-
-## Usage
-
-TODO
+See those directories for how to use and develop each respective codebase.
 
 ## Contributing
 
-I intend on working on this solo, so please don't expect proposed changes to make it in. If I do pull in code for external solutions, I will attribute people accordingly!
+Unfortunately, I will be attempting to tackle all the exercises on my own. If
+you provide possible solutions or improvements, I will gratefully look over them
+at some point when I give up, and credit you if I adopt them.
 
 ## License (for both my modifications and Robert Nystrom's original code)
 
