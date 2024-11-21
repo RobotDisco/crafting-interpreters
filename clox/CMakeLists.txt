@@ -5,3 +5,4 @@ project(clox C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(hello_world hello_world.c)
+add_executable(linked_list linked_list.c)
