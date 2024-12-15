@@ -8,3 +8,4 @@
 rootProject.name = "jlox"
 
 include("chapter01")
+include("chapter04")
