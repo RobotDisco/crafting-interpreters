@@ -17,6 +17,9 @@ and now I am making you do the same :)
     # I assume you want to learn as little about nix as possible; install devenv.
     nix-env -iA devenv -f https://github.com/NixOS/nixpkgs/tarball/nixpkgs-unstable
 
+I believe you can get by if you have a copy of Java 8+ and gradle, however you would
+like to install them.
+
 ## Usage
 
     # Enter the development environment.
