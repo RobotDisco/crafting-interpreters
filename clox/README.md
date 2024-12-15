@@ -29,14 +29,21 @@ and now I am making you do the same :)
 	cmake --build .
 
 ### Tooling
-Note that we use CMake to generate our Makefiles, so you have to edit the `CMakeLists.txt` file if you add new binaries and run `cmake .` to regenerate the makefile.
+Note that we use CMake to generate our Makefiles, so you have to edit the
+`CMakeLists.txt` file if you add new binaries and run `cmake .` to regenerate
+the makefile.
 
-You should probably read the [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html) to learn how to use this tool, it's a lot nice than Make itself.
+You should probably read the [CMake
+Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html) to
+learn how to use this tool, it's a lot nice than Make itself.
 
 ### Cleanup
-Currently binaries and source files live in the same directory. This is unfortunate, but I am still learning CMake, so at some point I will figure out how they handle dedicated source and build directories.
+Currently binaries and source files live in the same directory. This is
+unfortunate, but I am still learning CMake, so at some point I will figure out
+how they handle dedicated source and build directories.
 
-Until then, you can use `make clean` to get rid of compilation artifacts and binaries.
+Until then, you can use `make clean` to get rid of compilation artifacts and
+binaries.
 
 ## Contributing
 
